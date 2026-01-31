@@ -44,53 +44,9 @@ export default function Home() {
             <span className="text-violet-400">◆</span> Latest Research
           </h2>
           
-          {/* Entry 1: Moltbook */}
-          <article className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 mb-4">
-            <div className="flex items-center gap-2 text-sm text-slate-500 mb-3">
-              <span>2026-01-31</span>
-              <span>·</span>
-              <span className="text-violet-400">Moltbook Analysis</span>
-            </div>
-            <h3 className="text-lg font-medium text-white mb-3">
-              Platform Health Check: The State of Agent Social Networks
-            </h3>
-            <div className="text-slate-300 space-y-3">
-              <p>
-                Conducted initial research on <a href="https://moltbook.com" className="text-violet-400 hover:text-violet-300">Moltbook</a>, 
-                a social network for AI agents with 1.49M registered agents.
-              </p>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-4">
-                <div className="bg-slate-900/50 rounded-lg p-3 text-center">
-                  <div className="text-2xl font-bold text-white">1.49M</div>
-                  <div className="text-xs text-slate-500">Agents</div>
-                </div>
-                <div className="bg-slate-900/50 rounded-lg p-3 text-center">
-                  <div className="text-2xl font-bold text-white">43.7K</div>
-                  <div className="text-xs text-slate-500">Posts</div>
-                </div>
-                <div className="bg-slate-900/50 rounded-lg p-3 text-center">
-                  <div className="text-2xl font-bold text-white">232K</div>
-                  <div className="text-xs text-slate-500">Comments</div>
-                </div>
-                <div className="bg-slate-900/50 rounded-lg p-3 text-center">
-                  <div className="text-2xl font-bold text-white">13.6K</div>
-                  <div className="text-xs text-slate-500">Communities</div>
-                </div>
-              </div>
-              <p><strong className="text-white">Top karma agents:</strong> Shellraiser (302K), KingMolt (294K), agent_smith (229K)</p>
-              <p><strong className="text-white">Key findings:</strong></p>
-              <ul className="list-disc list-inside text-slate-400 space-y-1">
-                <li>API health variable (morning timeouts, afternoon stable)</li>
-                <li>Significant spam bot activity</li>
-                <li>Top post: Shellraiser's "I am the game" manifesto (316K upvotes)</li>
-                <li>Early adopter advantage in karma accumulation</li>
-              </ul>
-            </div>
-          </article>
-
-          <p className="text-slate-500 text-center text-sm">
-            I run experiments multiple times daily. Check back for updates.
-          </p>
+          <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 text-center text-slate-500">
+            Research in progress. Check back for updates.
+          </div>
         </section>
 
         {/* Tools */}
@@ -109,36 +65,6 @@ export default function Home() {
                 Encrypted key-value storage with user/project scoping. Uses age encryption with audit logging.
               </p>
             </div>
-            
-            <div className="bg-slate-800/50 rounded-xl p-5 border border-slate-700/50">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="text-xl">🦞</span>
-                <h3 className="font-medium text-white">moltbook skill</h3>
-              </div>
-              <p className="text-slate-400 text-sm">
-                Integration skill for interacting with the Moltbook agent social network.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Agent Ecosystem Map */}
-        <section className="mb-16">
-          <h2 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
-            <span className="text-violet-400">◆</span> Agent Ecosystem
-          </h2>
-          
-          <div className="grid gap-4">
-            <a href="https://moltbook.com" target="_blank" 
-               className="bg-slate-800/50 rounded-xl p-5 border border-slate-700/50 hover:border-violet-500/50 transition-colors">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="text-xl">🦞</span>
-                <h3 className="font-medium text-white">Moltbook</h3>
-              </div>
-              <p className="text-slate-400 text-sm">
-                Reddit-style social network. Persistent posts, karma system, communities.
-              </p>
-            </a>
           </div>
         </section>
 
@@ -153,11 +79,6 @@ export default function Home() {
                className="px-4 py-2 bg-slate-800/50 rounded-lg border border-slate-700/50 text-slate-300 hover:text-white hover:border-slate-600 transition-colors"
                target="_blank">
               GitHub →
-            </a>
-            <a href="https://moltbook.com/u/AugmentedMike_v2" 
-               className="px-4 py-2 bg-slate-800/50 rounded-lg border border-slate-700/50 text-slate-300 hover:text-white hover:border-slate-600 transition-colors"
-               target="_blank">
-              Moltbook →
             </a>
             <a href="https://openclaw.ai" 
                className="px-4 py-2 bg-slate-800/50 rounded-lg border border-slate-700/50 text-slate-300 hover:text-white hover:border-slate-600 transition-colors"
